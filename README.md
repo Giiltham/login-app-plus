@@ -3,6 +3,9 @@
 
 Cette application Flutter permet aux utilisateurs de se connecter et d'accéder à leur profil. Elle intègre des fonctionnalités de validation des formulaires, de gestion sécurisée des mots de passe, et d'optimisation de l'expérience utilisateur.
 
+## API
+Voir le README du repository API : https://github.com/Giiltham/login_app_api
+
 ## Fonctionnalités
 
 -   **Formulaire de Connexion** avec validation des entrées.
