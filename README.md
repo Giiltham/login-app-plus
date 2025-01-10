@@ -74,16 +74,12 @@ Voir le README du repository API : https://github.com/Giiltham/login_app_api
 
 1.  **Connexion :**
     -   Utilisez les crédentials suivants pour tester la connexion :
-        -   **Utilisateur :** `user@example.com` / `userpass`
-        -   **Admin :** `admin@example.com` / `adminpass`
+        -   **Utilisateur :** `jean@example.com` / `password123`
+        -   **Admin :** `admin@example.com` / `admin123`
 2.  **Profil :**
     -   Après une connexion réussie, vous serez redirigé vers l'écran de profil affichant vos informations.
 3.  **Déconnexion :**
     -   Utilisez le bouton de déconnexion pour revenir à l'écran de connexion.
-
-## Contributions
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request pour améliorer ce projet.
 
 ## Licence
 

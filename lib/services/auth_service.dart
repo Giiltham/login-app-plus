@@ -19,7 +19,7 @@ class AuthService {
   Future<Map<String, dynamic>?> login(String email, String password) async {
     final url = Uri.parse('$baseUrl/login');
     final headers = {"Content-Type": "application/json"};
-    final body = json.encode({"email": email, "password": password});
+    final body = json.encode({"email": email, "password": hashPassword(password)});
 
     try {
       final response = await http.post(url, headers: headers, body: body);
@@ -35,12 +35,5 @@ class AuthService {
     } catch (e) {
       throw Exception("Network error during login: $e");
     }
-
-    // Simule un délai pour imiter un appel réseau
-    await Future.delayed(const Duration(seconds: 2));
-
-
-
-    return null;
   }
 }
